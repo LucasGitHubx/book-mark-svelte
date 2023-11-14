@@ -75,7 +75,6 @@
 	@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 
 	main {
-		border: 1px solid black;
 		width: 90%;
 		max-width: 400px;
 		min-width: 300px;
@@ -87,9 +86,13 @@
 		display: flex;
 		align-items: center;
 		flex-direction: column;
+		gap: 1.5rem;
 	}
 	form div{
 		max-width: 325px;
+	}
+	form div input{
+		margin-top: 10px;
 	}
 	form input{
 		border: 1px solid black;
